@@ -1,5 +1,5 @@
 {% set name = "phoebusgen" %}
-{% set version = "3.1.0" %}
+{% set version = "3.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/phoebusgen-{{ version }}.tar.gz
-  sha256: e6ef712db185b3f107d1fa508c7961c7603d09be0cf618f83bf3d00b385090a1
+  sha256: eb19ba754e8ef4f3108cbd2a61f866cdab56cc49de2d4c6349ac67cdc6ed9a45
 
 build:
   noarch: python
